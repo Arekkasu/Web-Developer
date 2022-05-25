@@ -46,8 +46,10 @@ p{
 }
 .title-image{
     width: 60;
-    transform: rotate(18deg);
+    transform: rotate(25deg);
+    position: absolute;
 }
+/*Seccion de features*/
 .icons{
     color: #ef8172;
     margin-bottom: 1rem;
@@ -57,11 +59,15 @@ p{
 }
 #features{
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
 }
 .feature-box{
     text-align: center;
     padding: 5%;
 }
+/*Testimonials*/
 #testimonials{
     text-align: center;
     background-color: #ef8172;
